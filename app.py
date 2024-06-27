@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
-from modules.mapping import mapping
-from modules.song_player import song_player
-from modules.lighting_ac import lighting_ac
+from maps import mapping
+from song_player import song_player
+from lighting_ac import lighting_ac
 
 app = Flask(__name__)
 
